@@ -17,32 +17,13 @@ alias ipinfo="curl https://ipinfo.io/json"
 alias portstat="sudo netstat -tulpn"
 alias sportstat="sudo lsof -i"
 
+#search nse
 alias nsesearch="locate /usr/share/nmap/*.nse"
-
 
 #python env
 alias py2env="source ~/py2env/bin/activate"
 alias py3env="source ~/py3env/bin/activate"
 
-
-#mac
-alias omac="sudo ifconfig en0 ether 2c:f0:ee:06:3d:64"
-alias sfmac="sudo ifconfig en0 ether 00:33:a8:ed:43:12"
-alias smac="ifconfig en0 | grep ether"
-
-
-#openvpn oscp
-alias connlabs="cd ~/data/conn/; sudo openvpn --auth-nocache --config OS-21664-PWK.ovpn"
-alias offlabs='cd ~/data/labs/'
-alias finito='doneserver.sh'
-
-#openvpn htb
-alias htbconn='cd ~/data/htb/conn/; sudo openvpn abzung.ovpn'
-alias htblabs='cd ~/data/htb/labs'
-
-#openvpn tryhackme
-alias thmconn='cd ~/data/thm/conn/; sudo openvpn abzung.ovpn'
-alias thmlabs='cd ~/data/thm/labs'
 
 # pbcopy and pbpaste
 alias pbcopy="xclip -selection clipboard"
