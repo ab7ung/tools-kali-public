@@ -1,8 +1,26 @@
 # tools-kali-public - repo 
-### A collection of all the tools (kali and python) with custom aliases
+## A collection of all the tools (kali and python) with custom aliases
 
-#### kali-tools.sh install all the tools and update to latest versions
+### kali-tools.sh install all the tools and update to latest versions
+sh kali-tools.sh
 
-#### pyenvsetup.sh a collection of the py env, <i>do not execute the file as it is</i>. Select and use the commands
+### py env setup a collection of the py env
 
-#### backup-alias.txt custom alais for linux
+##### Python2
+$ cd /home/kali
+$ sh pygetpip.sh
+$ virtualenv -p python2 py2env
+$ source py2env/bin/activate
+$ sh py2envtools.sh
+$ deactivate
+
+##### Python3
+$ cd /home/kali
+$ virtualenv -p python3 py3env
+$ source py3env/bin/activate
+$ sh py3envtools.sh
+$ deactivate
+
+#### nmap scaning common scans
+Usage -
+$ sh abzfscan.sh <ip>
