@@ -6,7 +6,7 @@ echo $ip
 echo "sh abzfscan.sh <ip>"
 
 fullname=full-$ip.txt
-udpname=udp-top20-$ip.txt
+udpname=udp-$ip.txt
 vulnname=vuln-$ip.txt
 svscname=scsv=$ip.txt
 
