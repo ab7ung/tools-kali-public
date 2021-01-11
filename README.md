@@ -2,7 +2,7 @@
 
 ## A collection of all the tools (kali and python)
 
-### kali-tools.sh install all the tools and update to latest versions
+### kali-tools.sh - install all the tools and update to latest versions
 - sh kali-tools.sh
 
 ### py env setup a collection of the py env
