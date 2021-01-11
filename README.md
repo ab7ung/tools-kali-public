@@ -22,6 +22,6 @@
 - sh py3envtools.sh
 - deactivate
 
-#### nmap scaning common scans
+#### nmap common scans
 Usage
 - sh abzfscan.sh <ip>
