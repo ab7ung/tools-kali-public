@@ -24,7 +24,6 @@ alias nsesearch="locate /usr/share/nmap/*.nse"
 alias py2env="source ~/py2env/bin/activate"
 alias py3env="source ~/py3env/bin/activate"
 
-
 # pbcopy and pbpaste
 alias pbcopy="xclip -selection clipboard"
 alias pbpaste="xclip -selection clipboard -o"
