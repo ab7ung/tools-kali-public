@@ -72,3 +72,5 @@ python3 -m pip install --user pipx
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
 
+sudo gem install evil-winrm
+
