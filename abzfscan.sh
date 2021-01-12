@@ -8,7 +8,7 @@ echo "sh abzfscan.sh <ip>"
 fullname=full-$ip.txt
 udpname=udp-$ip.txt
 vulnname=vuln-$ip.txt
-svscname=scsv=$ip.txt
+svscname=scsv-$ip.txt
 
 #tcp - full scan
 echo "Full tcp scan"
