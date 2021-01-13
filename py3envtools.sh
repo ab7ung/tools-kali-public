@@ -11,6 +11,8 @@ python3 -m pip install --upgrade pwntools
 pip3 install aclpwn
 pip3 install raccoon-scanner
 
+pip3 install bloodhound
+
 # incase request give error, use following commands
 #python3 -m pip install requests
 #pip install requests 
