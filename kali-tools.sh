@@ -7,6 +7,7 @@ sudo apt install -y leafpad nano
 sudo apt-get install -y gcc-9-base libgcc-9-dev libc6-dev
 
 sudo apt-get install -y gcc-multilib
+sudo apt-get install -y bindfs
 
 sudo apt install -y libpango1.0-0
 #python and perl
@@ -61,7 +62,6 @@ sudo apt install -y kerberoast
 sudo apt install -y metasploit-framework 
 sudo apt install -y dnsutils
 # Error - sudo apt install -y realvnc x2go autorecon grabber hashcatsudo 
-
 sudo apt-get update
 sudo apt-get install -y python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
 sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential
@@ -71,6 +71,4 @@ sudo apt-get install -y python3-venv python3-impacket
 python3 -m pip install --user pipx
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
-
 sudo gem install evil-winrm
-
