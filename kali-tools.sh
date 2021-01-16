@@ -29,7 +29,7 @@ sudo apt install -y net-tools dos2unix
 # Incase nikto is missing in Kali
 sudo apt install -y nikto
 # Empire framework
-sudo apt install -y powershell-empire
+sudo apt install -y powershell-empire powershell
 # Domain sublister
 sudo apt install -y sublist3r
 # Screenshot grabbing tool, pass the output from sublist3r to eyewitness
