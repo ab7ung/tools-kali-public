@@ -73,5 +73,6 @@ pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
 pipx install git+https://github.com/laramies/theHarvester.git
 sudo gem install evil-winrm
+sudo gem install wpscan
 
 sudo apt autoremove -y
