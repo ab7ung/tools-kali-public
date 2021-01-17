@@ -24,4 +24,4 @@
 
 #### nmap common scans
 Usage
-- sh abzfscan.sh <ip>
+- sh custom-nmap-scan.sh <ip>
