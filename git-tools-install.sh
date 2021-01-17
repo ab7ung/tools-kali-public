@@ -25,8 +25,6 @@ git clone https://github.com/maurosoria/dirsearch.git
 
 git clone https://github.com/immunIT/drupwn.git
 
-git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git
-
 git clone https://github.com/SecWiki/windows-kernel-exploits.git
 
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
