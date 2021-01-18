@@ -1,4 +1,6 @@
-Linux Pric Esc Commands - Original artical - https://medium.com/@liau.weijie/privilege-escalation-on-linux-platform-8b3fbd0b1dd4
+Original artical - https://medium.com/@liau.weijie/privilege-escalation-on-linux-platform-8b3fbd0b1dd4
+
+Linux Pric Esc Commands
 
 ## 01 Kernel Exploit
 
