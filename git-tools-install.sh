@@ -32,6 +32,9 @@ git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-su
 git clone https://github.com/s0md3v/XSStrike
 git clone https://github.com/b374k/b374k.git
 
+#printer exploitation
+git clone https://github.com/RUB-NDS/PRET.git
+
 #nmapAutomator
 wget https://raw.githubusercontent.com/21y4d/nmapAutomator/master/nmapAutomator.sh && chmod 755 nmapAutomator.sh
 wget https://raw.githubusercontent.com/Ogglas/Orignal-Slowloris-HTTP-DoS/master/slowloris.pl && chmod 755 slowloris.pl
