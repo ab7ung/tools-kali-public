@@ -30,7 +30,8 @@
 ### smb server script for tranfers for files
 - sh create-smb-server.sh
 
-### bad chars array on the go
+### Buffer Overflow from Tib3rius
+- buffer-overflow.md
 - python gen-badchar-array.py
 
 ### Linux Priv Esc techniques 
