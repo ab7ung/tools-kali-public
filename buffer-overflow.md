@@ -1,8 +1,8 @@
 ## Process for Buffer Overflow
-(Original source for this awesome tutorial: Tib3rius https://tryhackme.com/room/bufferoverflowprep )
+(Original source for this awesome tutorial: **Tib3rius** https://tryhackme.com/room/bufferoverflowprep )
 
 ### connecting to process 
-nc -nv MACHINE_IP 1337
+```nc -nv MACHINE_IP 1337```
 
 ### setting mona working folder
 `!mona config -set workingfolder c:\mona\%p`
