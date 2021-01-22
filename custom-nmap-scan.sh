@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 
 ip=$1
-echo $ip
 
-echo "./custom-nmap-scan.sh <ip>"
+echo "Usage: ./custom-nmap-scan.sh <ip> | Current IP --->  $ip"
 
 fullname=full-$ip.txt
 udpname=udp-$ip.txt
