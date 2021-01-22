@@ -1,5 +1,4 @@
 # tools-kali-public - repo
-
 ## A collection of all the tools (kali and python)
 
 ### kali-tools.sh - install all the tools and update to latest versions
@@ -26,7 +25,6 @@
 - deactivate
 
 #### nmap common scans
-Usage
 - sh custom-nmap-scan.sh <ip>
 
 ### smb server script for tranfers for files
