@@ -7,7 +7,7 @@
 #### git tools list in one go, select one folder and execute the script. Later add the path in env var
 - sh git-tools-install.sh 
 
-### py env setup a collection of the py env
+### py venv setup
 
 ##### Python2
 - cd /home/kali
