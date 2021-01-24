@@ -36,7 +36,7 @@
 - python2 bytearray.py '\x00' (same as mona, taken from https://gist.github.com/rverton/64589ac9f5c035100ab40501b17cdf63)
 
 ### Linux Priv Esc techniques 
-- linux-priv-esc.md
+- linux-priv-esc.md (original article - https://jieliau.medium.com/privilege-escalation-on-linux-platform-8b3fbd0b1dd4)
 
 ### Windows Priv Esc techniques
 - under dev
