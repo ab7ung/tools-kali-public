@@ -33,6 +33,7 @@
 - Exploit
 	- final-exploit.py
 
+## Detailed process
 ### connecting to process 
 ```nc -nv MACHINE_IP 1337```
 
