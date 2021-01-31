@@ -59,7 +59,6 @@ sudo apt-get install -y bloodhound
 sudo apt install -y crackmapexec 
 sudo apt install -y ruby
 sudo apt install -y kerberoast
-sudo apt install -y metasploit-framework 
 sudo apt install -y dnsutils
 # Error - sudo apt install -y realvnc x2go autorecon grabber hashcatsudo 
 sudo apt-get update
@@ -76,3 +75,7 @@ sudo gem install evil-winrm
 sudo gem install wpscan
 
 sudo apt autoremove -y
+#Intall if needed
+echo "-----------------------------------------"
+echo "sudo apt install -y metasploit-framework"
+echo "-----------------------------------------"
