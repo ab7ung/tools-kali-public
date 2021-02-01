@@ -14,6 +14,7 @@ pip3 install slowloris
 pip3 install crackmapexec
 
 pip3 install xlrd
+pip3 install theHarvester
 
 # incase request give error, use following commands
 #python3 -m pip install requests
