@@ -6,6 +6,4 @@ python2 -m pip install --upgrade pwntools
 
 pip2 install requests impacket progress paramiko pycrypto 
 pip2 install crackmapexec
-pip2 install aclpwn
-
-pip2 install xlrd 
+pip2 install xlrd
