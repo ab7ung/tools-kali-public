@@ -75,6 +75,6 @@ sudo gem install wpscan
 
 sudo apt autoremove -y
 #Intall if needed
-echo "-----------------------------------------"
+echo "---- Install/upgrade if needed -------------------------------------"
 echo "sudo apt install -y metasploit-framework"
-echo "-----------------------------------------"
+echo "--------------------------------------------------------------------"
