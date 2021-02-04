@@ -8,7 +8,7 @@ sudo apt-get install -y gcc-9-base libgcc-9-dev libc6-dev
 sudo apt-get install -y git git-core
 sudo apt-get install -y gcc-multilib
 sudo apt-get install -y bindfs
-
+sudo apt-get install -y tigervnc-viewer
 sudo apt install -y libpango1.0-0
 #python and perl
 sudo apt-get install -y python-dev build-essential python-setuptools virtualenvwrapper python3-pip
