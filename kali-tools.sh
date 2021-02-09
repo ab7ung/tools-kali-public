@@ -64,7 +64,7 @@ sudo apt-get update
 sudo apt-get install -y python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
 sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential
 sudo apt-get install -y virtualenvwrapper
-sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-shodan
+sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-shodan python3-crypto
 
 python3 -m pip install --user pipx
 pipx install witnessme
