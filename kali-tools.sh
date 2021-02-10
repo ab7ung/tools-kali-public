@@ -50,12 +50,12 @@ sudo apt install -y ffuf
 
 # some re-install just in case
 sudo apt install -y remmina filezilla nasm #
-sudo apt install -y seclists curl enum4linux gobuster nbtscan nikto nmap onesixtyone oscanner 
+sudo apt install -y seclists curl enum4linux gobuster nbtscan nikto nmap onesixtyone oscanner nishang
 sudo apt install -y smbclient smbmap smtp-user-enum snmp sslscan sipvicious tnscmd10g whatweb wkhtmltopdf
 sudo apt install -y jq
 sudo apt-get install -y hashcat  
 sudo apt-get install -y bloodhound
-sudo apt install -y crackmapexec 
+sudo apt install -y crackmapexec
 sudo apt install -y ruby
 sudo apt install -y kerberoast
 sudo apt install -y dnsutils
