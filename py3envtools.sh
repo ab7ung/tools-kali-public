@@ -12,6 +12,7 @@ pip3 install aclpwn
 pip3 install raccoon-scanner
 pip3 install slowloris
 pip3 install crackmapexec
+pip3 install -U oletools
 
 pip3 install xlrd
 pip3 install theHarvester
