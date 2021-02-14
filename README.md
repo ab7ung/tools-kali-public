@@ -1,4 +1,4 @@
-# tools-kali-public - repo
+# tools-kali-public
 ## A collection of all the tools (kali and python)
 
 ### kali-tools.sh - install all the tools and update to latest versions
@@ -27,7 +27,7 @@
 #### nmap common scans
 - sh custom-nmap-scan.sh <ip>
 
-### smb server script for tranfers for files
+### smb server script for tranfers of files
 - sh create-smb-server.sh
 
 ### Buffer Overflow from Tib3rius
