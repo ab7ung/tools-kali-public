@@ -40,3 +40,7 @@
 
 ### Windows Priv Esc techniques
 - under dev
+
+### mkpsrevshell.py
+- generate reverse powershell cmdline with base64 encoded args for usage in Microsoft Office macro
+
