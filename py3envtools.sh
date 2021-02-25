@@ -16,6 +16,8 @@ pip3 install -U oletools
 
 pip3 install xlrd
 pip3 install theHarvester
+pip3 install cmsmap #cms scanner since droopescan doesnt work sometimes
+
 
 # incase request give error, use following commands
 #python3 -m pip install requests
