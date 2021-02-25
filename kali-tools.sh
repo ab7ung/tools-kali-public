@@ -59,13 +59,13 @@ sudo apt install -y crackmapexec
 sudo apt install -y ruby
 sudo apt install -y kerberoast
 sudo apt install -y dnsutils
-sudo apt install -y rinetd xrdp libnet-vnc-perl unzip 
+sudo apt install -y rinetd xrdp libnet-vnc-perl unzip tcpdump crowbar
 # Error - sudo apt install -y realvnc x2go autorecon grabber hashcatsudo 
 sudo apt-get update
 sudo apt-get install -y python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential
 sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential
 sudo apt-get install -y virtualenvwrapper
-sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-shodan python3-crypto libpython3-dev python3-xlrd 
+sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-shodan python3-crypto libpython3-dev python3-xlrd python-xlrd-docs
 
 python3 -m pip install --user pipx
 pipx install witnessme
