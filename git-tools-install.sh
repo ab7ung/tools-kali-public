@@ -17,6 +17,8 @@ git clone https://github.com/mgeeky/tomcatWarDeployer.git
 
 git clone https://github.com/D35m0nd142/LFISuite.git
 
+git clone https://github.com/EmpireProject/Empire.git
+
 git clone https://github.com/Seabreg/pwdump.git
 git clone https://github.com/CiscoCXSecurity/creddump7.git
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
@@ -32,6 +34,11 @@ git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-su
 git clone https://github.com/s0md3v/XSStrike
 git clone https://github.com/b374k/b374k.git
 
+#cms scanner and exploitation
+git clone https://github.com/Tuhinshubhra/CMSeeK
+#git clone https://github.com/Dionach/CMSmap
+
+
 #printer exploitation
 git clone https://github.com/RUB-NDS/PRET.git
 
@@ -39,6 +46,9 @@ git clone https://github.com/RUB-NDS/PRET.git
 wget https://raw.githubusercontent.com/21y4d/nmapAutomator/master/nmapAutomator.sh && chmod 755 nmapAutomator.sh
 wget https://raw.githubusercontent.com/Ogglas/Orignal-Slowloris-HTTP-DoS/master/slowloris.pl && chmod 755 slowloris.pl
 wget https://raw.githubusercontent.com/brokensound77/OptionsBleed-POC-Scanner/master/bleeder.py && chmod 755 bleeder.py
+
+#findmyhash - find the hash of password for cracking across multiple sites
+wget https://raw.githubusercontent.com/frdmn/findmyhash/master/findmyhash.py && chmod 755 findmyhash.py
 
 #encode-explorer.php
 wget https://raw.githubusercontent.com/marekrei/encode-explorer/master/index.php
