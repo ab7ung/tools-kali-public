@@ -31,12 +31,12 @@ git clone https://github.com/SecWiki/windows-kernel-exploits.git
 
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
 
-git clone https://github.com/s0md3v/XSStrike
+git clone https://github.com/s0md3v/XSStrike.git
 git clone https://github.com/b374k/b374k.git
 
 #cms scanner and exploitation
-git clone https://github.com/Tuhinshubhra/CMSeeK
-#git clone https://github.com/Dionach/CMSmap
+git clone https://github.com/Tuhinshubhra/CMSeeK.git
+#git clone https://github.com/Dionach/CMSmap.git
 
 
 #printer exploitation
