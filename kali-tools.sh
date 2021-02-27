@@ -43,7 +43,7 @@ sudo apt install -y dnsrecon
 # Openvpn
 sudo apt install -y openvpn
 # john and hashcat
-sudo apt install -y john
+sudo apt install -y john bruteforce-salted-openssl
 # gospider ffuf
 sudo apt install -y gospider
 sudo apt install -y ffuf
