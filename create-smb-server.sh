@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 curdir=$(pwd)
-ip=$(hostname -I | cut -d" " -f2 | grep "10.10")
+ip=$(hostname -I | cut -d" " -f2 | grep "192.168")
 
 # ---- without smb2 -----------
 
