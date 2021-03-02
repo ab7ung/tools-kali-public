@@ -11,7 +11,7 @@
 
 ##### Python2
 - cd /home/kali
-- sh pygetpip.sh or curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python2 get-pip.py
+- sh pygetpip.sh or curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python2 get-pip.py (you can also use the file py2-get-pip.py in this repo since the current version of get-pip.py does not work with python2)
 - virtualenv -p python2 py2env
 - source py2env/bin/activate
 - sh py2envtools.sh
