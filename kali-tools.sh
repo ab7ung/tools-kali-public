@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # A list of tool to install in kali
-sudo apt update
+cd && sudo apt update
 #leafpad and nano
 sudo apt install -y leafpad nano
 #lib for gcc compilation
@@ -70,7 +70,7 @@ sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-s
 python3 -m pip install --user pipx
 
 #adding the pipx path to 
-echo "export PATH=$PATH:/home/kali/.local/bin/" >> .zshrc && cd && source .zshrc
+echo "export PATH=$PATH:/home/kali/.local/bin/" >> .zshrc && source .zshrc
 
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
