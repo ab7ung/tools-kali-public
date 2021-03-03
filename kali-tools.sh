@@ -69,9 +69,11 @@ sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-s
 
 python3 -m pip install --user pipx
 
-#adding the pipx path to 
-echo "export PATH=$PATH:/home/kali/.local/bin/" >> .zshrc && source .zshrc
-
+#adding the pipx path to
+echo "--------------------------------------------------------------------"
+echo "Use the following command to if pipx fails"
+echo '#export PATH=$PATH:/home/kali/.local/bin/ >> .zshrc && source .zshrc'
+echo "--------------------------------------------------------------------"
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
 sudo gem install evil-winrm
