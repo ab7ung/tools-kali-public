@@ -68,6 +68,10 @@ sudo apt-get install -y virtualenvwrapper
 sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-shodan python3-crypto libpython3-dev python3-xlrd python-xlrd-docs
 
 python3 -m pip install --user pipx
+
+#adding the pipx path to 
+echo "export PATH=$PATH:/home/kali/.local/bin/" >> .zshrc && cd && source .zshrc
+
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
 sudo gem install evil-winrm
