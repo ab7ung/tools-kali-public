@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+
 ip=$1
+
 echo "Usage: ./custom-nmap-scan.sh <ip> | Current IP --->  $ip"
 
 fullname=full-$ip.txt
@@ -13,7 +15,7 @@ now=$(date +"%T")
 #tcp - full scan
 echo "---> Full tcp scan started at $now"
 #sudo nmap -Pn -p- --max-retries 1 --max-rate 500 --max-scan-delay 20 -T4 -oN $fullname $ip
-sudo nmap -T4 -p- -n -vvv $ip --max-retries 1 -oN $fullname2
+sudo nmap -Pn -T4 -p- -n -vvv $ip --max-retries 1 -oN $fullname2
 nmap_ports=$(cat $fullname2 | grep open | cut -d "/" -f 1 | tr -s "[:space:]" "," | sed 's/.$//');
 
 now=$(date +"%T")
