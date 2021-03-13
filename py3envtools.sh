@@ -5,7 +5,7 @@ python3 -m pip install --upgrade pip
 
 python3 -m pip install requests progress
 pip3 install requests impacket progress paramiko pycrypto 
-pip3 install pysmb drupwn droopescan
+pip3 install pysmb drupwn droopescan dnspython argparse
 
 python3 -m pip install --upgrade pwntools
 pip3 install aclpwn
