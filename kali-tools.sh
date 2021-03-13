@@ -58,7 +58,7 @@ sudo apt-get install -y bloodhound
 sudo apt install -y crackmapexec
 sudo apt install -y ruby
 sudo apt install -y kerberoast
-sudo apt install -y dnsutils
+sudo apt install -y dnsutils altdns
 sudo apt install -y rinetd xrdp libnet-vnc-perl unzip tcpdump crowbar
 # Error - sudo apt install -y realvnc x2go autorecon grabber hashcatsudo 
 sudo apt-get update
