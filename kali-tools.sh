@@ -43,10 +43,7 @@ sudo apt install -y dnsrecon
 # Openvpn
 sudo apt install -y openvpn
 # john and hashcat
-sudo apt install -y john bruteforce-salted-openssl
-# gospider ffuf
-sudo apt install -y gospider
-sudo apt install -y ffuf feroxbuster
+sudo apt install -y john bruteforce-salted-openssl gospider ffuf feroxbuster
 
 # some re-install just in case
 sudo apt install -y remmina filezilla nasm #
