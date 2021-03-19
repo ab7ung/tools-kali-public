@@ -73,11 +73,12 @@ echo '#export PATH=~/.local/bin/:$PATH >> .zshrc && source .zshrc'
 echo "--------------------------------------------------------------------"
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
+sudo gem install bundler
 sudo gem install evil-winrm
 sudo gem install wpscan
 
 sudo apt autoremove -y
 #Intall if needed
 echo "---- Install/upgrade if needed -------------------------------------"
-echo "#sudo apt install -y metasploit-framework"
+echo "#sudo apt install -y metasploit-framework && sudo msfdb reinit"
 echo "--------------------------------------------------------------------"
