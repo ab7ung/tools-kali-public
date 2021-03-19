@@ -73,6 +73,7 @@ echo '#export PATH=~/.local/bin/:$PATH >> .zshrc && source .zshrc'
 echo "--------------------------------------------------------------------"
 pipx install witnessme
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
+
 sudo gem install bundler
 sudo gem install evil-winrm
 sudo gem install wpscan
