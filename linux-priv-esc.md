@@ -2,6 +2,18 @@
 
 # Linux Pric Esc Commands
 
+## 00 Useful tools
+
+	- LinEnum
+	https://github.com/rebootuser/LinEnum
+	
+	- linuxprivchecker
+	https://github.com/sleventyeleven/linuxprivchecker
+	
+	- unix-privesc-check
+	https://github.com/pentestmonkey/unix-privesc-check
+
+
 ## 01 Kernel Exploit
 
 	$ uname -a
@@ -154,13 +166,3 @@ In the scenario which you use showmount to find your target has NFS service up a
 
 And then you can mount this folder with local root and put the copy of /bin/bash into it. After this, try use the exploited normal account to execute this /bin/bash. You will get the heaven !!!
 
-## 08 Useful tools
-
-	- LinEnum
-	https://github.com/rebootuser/LinEnum
-	
-	- linuxprivchecker
-	https://github.com/sleventyeleven/linuxprivchecker
-	
-	- unix-privesc-check
-	https://github.com/pentestmonkey/unix-privesc-check
