@@ -2,15 +2,15 @@
 
 ### python command for bash 
 
-python3 -c 'import pty; pty.spawn("/bin/bash")'
+```python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 python -c 'import pty; pty.spawn("/bin/bash")'
 
-python -c 'import pty; pty.spawn("/bin/sh")' 
+python -c 'import pty; pty.spawn("/bin/sh")' ```
 
 ### spawn nicer shell 
 
-/usr/bin/script -qc /bin/bash /dev/null
+```/usr/bin/script -qc /bin/bash /dev/null```
 
 ### to get nobody removed in NFS share
 
