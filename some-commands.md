@@ -140,4 +140,25 @@ export PATH=~/data/exploits/:$PATH
 export PATH=~/data/myscrs/:$PATH
 export PATH=/usr/opt/:$PATH
 ```
+### dhclient by default
+
+```
+sudo nano /etc/rc.local
+
+
+#!/bin/bash
+dhclient
+exit 0
+
+
+sudo chmod 755 /etc/rc.local
+
+sudo systemctl enable rc-local
+
+sudo systemctl restart rc-local
+
+sudo systemctl status rc-local
+```
+
+
 ---END
