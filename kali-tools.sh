@@ -43,7 +43,9 @@ sudo apt install -y dnsrecon
 # Openvpn
 sudo apt install -y openvpn
 # john and hashcat
-sudo apt install -y john bruteforce-salted-openssl gospider ffuf feroxbuster
+sudo apt install -y john bruteforce-salted-openssl gospider ffuf 
+# a new dirb brute force tool
+sudo apt install -y feroxbuster
 
 # some re-install just in case
 sudo apt install -y remmina filezilla nasm #
@@ -79,10 +81,10 @@ sudo gem install bundler
 sudo gem install evil-winrm
 sudo gem install wpscan
 
-sudo apt autoremove -y
 #Intall if needed
 echo "---- Install/upgrade if needed -------------------------------------"
 echo "#sudo apt install -y metasploit-framework && sudo msfdb reinit"
-echo "Install rustscan"
-echo "wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb && sudo dpkg -i rustscan_2.0.1_amd64.deb"
+echo "Installing rustscan - a fast nmap scanner"
+wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb && sudo dpkg -i rustscan_2.0.1_amd64.deb
 echo "--------------------------------------------------------------------"
+sudo apt autoremove -y
