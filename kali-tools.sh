@@ -83,4 +83,6 @@ sudo apt autoremove -y
 #Intall if needed
 echo "---- Install/upgrade if needed -------------------------------------"
 echo "#sudo apt install -y metasploit-framework && sudo msfdb reinit"
+echo "Install rustscan"
+echo "wget https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb && sudo dpkg -i rustscan_2.0.1_amd64.deb"
 echo "--------------------------------------------------------------------"
