@@ -17,7 +17,7 @@ sudo apt-get install -y libwww-perl libdbd-sqlite3-perl libhtml-linkextractor-pe
 
 sudo apt-get install -y libterm-readline-gnu-perl liblwp-protocol-socks-perl sqlite3 libswitch-perl
 
-sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential python3-venv perl-doc
+sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential python3-venv perl-doc python3-autopep8 python-autopep8
 # paramiko package
 sudo apt-get install -y python3-paramiko
 # xclip
