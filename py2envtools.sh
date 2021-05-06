@@ -8,4 +8,4 @@ pip2 install requests impacket progress paramiko pycrypto
 pip2 install crackmapexec
 pip2 install xlrd
 pip2 install pysmb droopescan drupwn
-pip2 install libxml httplib2
+pip2 install libxml httplib2 requests-toolbelt
