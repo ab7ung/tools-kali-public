@@ -12,6 +12,9 @@
 	
 	- unix-privesc-check
 	https://github.com/pentestmonkey/unix-privesc-check
+	
+	- suid3num.py (use without -e option in OSCP exam)
+	https://github.com/Anon-Exploiter/SUID3NUM
 
 
 ## 01 Kernel Exploit
