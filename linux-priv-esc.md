@@ -15,7 +15,12 @@
 	
 	- suid3num.py (use without -e option in OSCP exam)
 	https://github.com/Anon-Exploiter/SUID3NUM
-
+	
+	- LinPEAS (https://www.offensive-security.com/offsec/understanding-pentest-tools-scripts/)
+	https://github.com/carlospolop/PEASS-ng
+	* the repo also contains WinPEAS as well.
+	Injecting sudo tokens  - > https://github.com/nongiach/sudo_inject
+	
 
 ## 01 Kernel Exploit
 
