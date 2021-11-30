@@ -66,7 +66,8 @@ sudo apt-get install -y libssl-dev libffi-dev python-dev build-essential
 sudo apt-get install -y virtualenvwrapper python3-yaml
 sudo apt-get install -y python3-venv python3-impacket impacket-scripts python3-shodan python3-crypto libpython3-dev python3-xlrd python-xlrd-docs
 
-python3 -m pip install --user pipx
+sudo apt install -y pipx #python3 -m pip install --user pipx
+sudo apt install -y python2-dev python-dev-is-python3 python3-autopep8
 
 #adding the pipx path to
 echo "--------------------------------------------------------------------"
