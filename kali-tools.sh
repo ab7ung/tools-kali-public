@@ -77,6 +77,7 @@ echo "--------------------------------------------------------------------"
 pipx install witnessme
 
 pipx install git+https://github.com/Tib3rius/AutoRecon.git
+python3 -m pip install git+https://github.com/Tib3rius/AutoRecon.git
 
 sudo gem install bundler
 sudo gem install evil-winrm
